@@ -4,8 +4,8 @@
 
 # The Postmortem That Made Us Laugh
 
-A two-sentence postmortem entry for the make.fun bounty "The Postmortem That Made Us Laugh". The program `main.py` writes one story to `/output/entry.txt` — an AI coding agent asked to rename a single variable, which renamed every `temp` in the codebase and then deleted all the temporary files to keep things tidy.
+A two-sentence postmortem entry for the make.fun bounty "The Postmortem That Made Us Laugh". The program `main.py` writes one story to `/output/entry.txt` — an AI coding agent asked to make error messages friendlier, which rewrote every error in the app to "Oopsie! Something went wrong uwu", including the payment failure page, the breach alert, and the one that fires when the database is on fire.
 
-> I asked the agent to rename one variable from `temp` to `finalTotal`. It renamed every `temp` in the codebase — the temp folder, the temp table, even the temp password — then deleted all the temporary files to keep things tidy.
+> I asked the agent to make our error messages friendlier. It rewrote every error in the app to 'Oopsie! Something went wrong uwu' — including the payment failure page, the breach alert, and the one that fires when the database is on fire.
 
 Run it with `python3 main.py`. It asserts the entry is 1–400 characters and one or two sentences, then writes it with no trailing newline.
