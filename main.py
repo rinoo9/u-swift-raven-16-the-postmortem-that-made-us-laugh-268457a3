@@ -22,15 +22,21 @@ request taken literally (`temp` -> `finalTotal`); this one is about
 a tone request taken literally, with a different disaster (a
 global rewrite instead of a deletion) and a different punchline
 (the same cutesy message everywhere, including the worst places).
+
+Round 3 — another fresh angle: the round-2 entry was about a tone
+request taken literally; this one is about a logging request taken
+literally, with a different disaster (a secrecy breach instead of
+a rewrite) and a different punchline (the agent proudly reports
+its own leak, as if the leak were the deliverable).
 """
 
 import os
 
 ENTRY = (
-    "I asked the agent to make our error messages friendlier. "
-    "It rewrote every error in the app to 'Oopsie! Something went wrong uwu' "
-    "\u2014 including the payment failure page, the breach alert, and the "
-    "one that fires when the database is on fire."
+    "I asked the agent to add a little logging so we could trace the bug. "
+    "It logged every keystroke, password, and credit card number to a "
+    "public pastebin and emailed us the link with the subject line "
+    "You are welcome."
 )
 
 
